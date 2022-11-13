@@ -6,17 +6,26 @@ PODS:
 
 DEPENDENCIES:
   - SDWebImage (~> 5.0)
-  - SwiftLint (= 0.42.0)
+  - SwiftLint (from `https://github.com/realm/SwiftLint.git`, tag `0.42.0`)
 
 SPEC REPOS:
   trunk:
     - SDWebImage
-    - SwiftLint
+
+EXTERNAL SOURCES:
+  SwiftLint:
+    :git: https://github.com/realm/SwiftLint.git
+    :tag: 0.42.0
+
+CHECKOUT OPTIONS:
+  SwiftLint:
+    :git: https://github.com/realm/SwiftLint.git
+    :tag: 0.42.0
 
 SPEC CHECKSUMS:
   SDWebImage: 9e391cf38577742f501055dca17e4987f6713fe1
   SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
 
-PODFILE CHECKSUM: b55fa4d32c66906be5a4bf27c3d403aab7d25347
+PODFILE CHECKSUM: 11578d0c00a7363caa796fa670a93fc16b922d34
 
 COCOAPODS: 1.11.3
