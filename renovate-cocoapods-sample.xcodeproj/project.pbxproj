@@ -7,90 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BACFA1578E561F89CDDCF14 /* Pods_renovate_cocoapods_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AA2AD02F72D7CF305DA7E9 /* Pods_renovate_cocoapods_sample.framework */; };
-		C65C61F62920987600785E7F /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65C61F52920987600785E7F /* Sample.swift */; };
-		C6DE4D7E2920952200FCAA20 /* renovate_cocoapods_sampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DE4D7D2920952200FCAA20 /* renovate_cocoapods_sampleApp.swift */; };
-		C6DE4D802920952200FCAA20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DE4D7F2920952200FCAA20 /* ContentView.swift */; };
-		C6DE4D822920953100FCAA20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6DE4D812920953100FCAA20 /* Assets.xcassets */; };
-		C6DE4D852920953100FCAA20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6DE4D842920953100FCAA20 /* Preview Assets.xcassets */; };
+		C67EED632920A5BB001129AF /* renovate_cocoapods_sampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67EED622920A5BB001129AF /* renovate_cocoapods_sampleApp.swift */; };
+		C67EED652920A5BB001129AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67EED642920A5BB001129AF /* ContentView.swift */; };
+		C67EED672920A5BD001129AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67EED662920A5BD001129AF /* Assets.xcassets */; };
+		C67EED6A2920A5BD001129AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67EED692920A5BD001129AF /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		08AA2AD02F72D7CF305DA7E9 /* Pods_renovate_cocoapods_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_renovate_cocoapods_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		70AB067C318DAEA465CE7989 /* Pods-renovate-cocoapods-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-renovate-cocoapods-sample.debug.xcconfig"; path = "Target Support Files/Pods-renovate-cocoapods-sample/Pods-renovate-cocoapods-sample.debug.xcconfig"; sourceTree = "<group>"; };
-		B03D3932BF27A4C44DF29649 /* Pods-renovate-cocoapods-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-renovate-cocoapods-sample.release.xcconfig"; path = "Target Support Files/Pods-renovate-cocoapods-sample/Pods-renovate-cocoapods-sample.release.xcconfig"; sourceTree = "<group>"; };
-		C65C61F52920987600785E7F /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
-		C6DE4D7A2920952200FCAA20 /* renovate-cocoapods-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "renovate-cocoapods-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6DE4D7D2920952200FCAA20 /* renovate_cocoapods_sampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = renovate_cocoapods_sampleApp.swift; sourceTree = "<group>"; };
-		C6DE4D7F2920952200FCAA20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C6DE4D812920953100FCAA20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C6DE4D842920953100FCAA20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C67EED5F2920A5BB001129AF /* renovate-cocoapods-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "renovate-cocoapods-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67EED622920A5BB001129AF /* renovate_cocoapods_sampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = renovate_cocoapods_sampleApp.swift; sourceTree = "<group>"; };
+		C67EED642920A5BB001129AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C67EED662920A5BD001129AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C67EED692920A5BD001129AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C6DE4D772920952200FCAA20 /* Frameworks */ = {
+		C67EED5C2920A5BB001129AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BACFA1578E561F89CDDCF14 /* Pods_renovate_cocoapods_sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36B60EC6F3034CDF49612F04 /* Pods */ = {
+		C67EED562920A5BB001129AF = {
 			isa = PBXGroup;
 			children = (
-				70AB067C318DAEA465CE7989 /* Pods-renovate-cocoapods-sample.debug.xcconfig */,
-				B03D3932BF27A4C44DF29649 /* Pods-renovate-cocoapods-sample.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		3E344722172DF58E47D0D569 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				08AA2AD02F72D7CF305DA7E9 /* Pods_renovate_cocoapods_sample.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C6DE4D712920952200FCAA20 = {
-			isa = PBXGroup;
-			children = (
-				C6DE4D7C2920952200FCAA20 /* renovate-cocoapods-sample */,
-				C6DE4D7B2920952200FCAA20 /* Products */,
-				36B60EC6F3034CDF49612F04 /* Pods */,
-				3E344722172DF58E47D0D569 /* Frameworks */,
+				C67EED612920A5BB001129AF /* renovate-cocoapods-sample */,
+				C67EED602920A5BB001129AF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C6DE4D7B2920952200FCAA20 /* Products */ = {
+		C67EED602920A5BB001129AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C6DE4D7A2920952200FCAA20 /* renovate-cocoapods-sample.app */,
+				C67EED5F2920A5BB001129AF /* renovate-cocoapods-sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C6DE4D7C2920952200FCAA20 /* renovate-cocoapods-sample */ = {
+		C67EED612920A5BB001129AF /* renovate-cocoapods-sample */ = {
 			isa = PBXGroup;
 			children = (
-				C6DE4D7D2920952200FCAA20 /* renovate_cocoapods_sampleApp.swift */,
-				C6DE4D7F2920952200FCAA20 /* ContentView.swift */,
-				C6DE4D812920953100FCAA20 /* Assets.xcassets */,
-				C6DE4D832920953100FCAA20 /* Preview Content */,
-				C65C61F52920987600785E7F /* Sample.swift */,
+				C67EED622920A5BB001129AF /* renovate_cocoapods_sampleApp.swift */,
+				C67EED642920A5BB001129AF /* ContentView.swift */,
+				C67EED662920A5BD001129AF /* Assets.xcassets */,
+				C67EED682920A5BD001129AF /* Preview Content */,
 			);
 			path = "renovate-cocoapods-sample";
 			sourceTree = "<group>";
 		};
-		C6DE4D832920953100FCAA20 /* Preview Content */ = {
+		C67EED682920A5BD001129AF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				C6DE4D842920953100FCAA20 /* Preview Assets.xcassets */,
+				C67EED692920A5BD001129AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -98,15 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C6DE4D792920952200FCAA20 /* renovate-cocoapods-sample */ = {
+		C67EED5E2920A5BB001129AF /* renovate-cocoapods-sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6DE4D882920953100FCAA20 /* Build configuration list for PBXNativeTarget "renovate-cocoapods-sample" */;
+			buildConfigurationList = C67EED6D2920A5BD001129AF /* Build configuration list for PBXNativeTarget "renovate-cocoapods-sample" */;
 			buildPhases = (
-				C1D365CC2330A50FD519A015 /* [CP] Check Pods Manifest.lock */,
-				C6DE4D762920952200FCAA20 /* Sources */,
-				C6DE4D772920952200FCAA20 /* Frameworks */,
-				C6DE4D782920952200FCAA20 /* Resources */,
-				F6B51E4CD4BDF6B08FA91F7B /* [CP] Embed Pods Frameworks */,
+				C67EED5B2920A5BB001129AF /* Sources */,
+				C67EED5C2920A5BB001129AF /* Frameworks */,
+				C67EED5D2920A5BB001129AF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -114,25 +84,25 @@
 			);
 			name = "renovate-cocoapods-sample";
 			productName = "renovate-cocoapods-sample";
-			productReference = C6DE4D7A2920952200FCAA20 /* renovate-cocoapods-sample.app */;
+			productReference = C67EED5F2920A5BB001129AF /* renovate-cocoapods-sample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C6DE4D722920952200FCAA20 /* Project object */ = {
+		C67EED572920A5BB001129AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					C6DE4D792920952200FCAA20 = {
-						CreatedOnToolsVersion = 14.0.1;
+					C67EED5E2920A5BB001129AF = {
+						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = C6DE4D752920952200FCAA20 /* Build configuration list for PBXProject "renovate-cocoapods-sample" */;
+			buildConfigurationList = C67EED5A2920A5BB001129AF /* Build configuration list for PBXProject "renovate-cocoapods-sample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,85 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = C6DE4D712920952200FCAA20;
-			productRefGroup = C6DE4D7B2920952200FCAA20 /* Products */;
+			mainGroup = C67EED562920A5BB001129AF;
+			productRefGroup = C67EED602920A5BB001129AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C6DE4D792920952200FCAA20 /* renovate-cocoapods-sample */,
+				C67EED5E2920A5BB001129AF /* renovate-cocoapods-sample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C6DE4D782920952200FCAA20 /* Resources */ = {
+		C67EED5D2920A5BB001129AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6DE4D852920953100FCAA20 /* Preview Assets.xcassets in Resources */,
-				C6DE4D822920953100FCAA20 /* Assets.xcassets in Resources */,
+				C67EED6A2920A5BD001129AF /* Preview Assets.xcassets in Resources */,
+				C67EED672920A5BD001129AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		C1D365CC2330A50FD519A015 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-renovate-cocoapods-sample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6B51E4CD4BDF6B08FA91F7B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-renovate-cocoapods-sample/Pods-renovate-cocoapods-sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-renovate-cocoapods-sample/Pods-renovate-cocoapods-sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-renovate-cocoapods-sample/Pods-renovate-cocoapods-sample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		C6DE4D762920952200FCAA20 /* Sources */ = {
+		C67EED5B2920A5BB001129AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6DE4D802920952200FCAA20 /* ContentView.swift in Sources */,
-				C65C61F62920987600785E7F /* Sample.swift in Sources */,
-				C6DE4D7E2920952200FCAA20 /* renovate_cocoapods_sampleApp.swift in Sources */,
+				C67EED652920A5BB001129AF /* ContentView.swift in Sources */,
+				C67EED632920A5BB001129AF /* renovate_cocoapods_sampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C6DE4D862920953100FCAA20 /* Debug */ = {
+		C67EED6B2920A5BD001129AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,7 +195,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -278,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		C6DE4D872920953100FCAA20 /* Release */ = {
+		C67EED6C2920A5BD001129AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -322,7 +249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -332,9 +259,8 @@
 			};
 			name = Release;
 		};
-		C6DE4D892920953100FCAA20 /* Debug */ = {
+		C67EED6E2920A5BD001129AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70AB067C318DAEA465CE7989 /* Pods-renovate-cocoapods-sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -362,9 +288,8 @@
 			};
 			name = Debug;
 		};
-		C6DE4D8A2920953100FCAA20 /* Release */ = {
+		C67EED6F2920A5BD001129AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B03D3932BF27A4C44DF29649 /* Pods-renovate-cocoapods-sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -395,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C6DE4D752920952200FCAA20 /* Build configuration list for PBXProject "renovate-cocoapods-sample" */ = {
+		C67EED5A2920A5BB001129AF /* Build configuration list for PBXProject "renovate-cocoapods-sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C6DE4D862920953100FCAA20 /* Debug */,
-				C6DE4D872920953100FCAA20 /* Release */,
+				C67EED6B2920A5BD001129AF /* Debug */,
+				C67EED6C2920A5BD001129AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6DE4D882920953100FCAA20 /* Build configuration list for PBXNativeTarget "renovate-cocoapods-sample" */ = {
+		C67EED6D2920A5BD001129AF /* Build configuration list for PBXNativeTarget "renovate-cocoapods-sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C6DE4D892920953100FCAA20 /* Debug */,
-				C6DE4D8A2920953100FCAA20 /* Release */,
+				C67EED6E2920A5BD001129AF /* Debug */,
+				C67EED6F2920A5BD001129AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C6DE4D722920952200FCAA20 /* Project object */;
+	rootObject = C67EED572920A5BB001129AF /* Project object */;
 }
