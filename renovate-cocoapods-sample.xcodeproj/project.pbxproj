@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BACFA1578E561F89CDDCF14 /* Pods_renovate_cocoapods_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AA2AD02F72D7CF305DA7E9 /* Pods_renovate_cocoapods_sample.framework */; };
 		C65C61F62920987600785E7F /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65C61F52920987600785E7F /* Sample.swift */; };
 		C6DE4D7E2920952200FCAA20 /* renovate_cocoapods_sampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DE4D7D2920952200FCAA20 /* renovate_cocoapods_sampleApp.swift */; };
 		C6DE4D802920952200FCAA20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DE4D7F2920952200FCAA20 /* ContentView.swift */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08AA2AD02F72D7CF305DA7E9 /* Pods_renovate_cocoapods_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_renovate_cocoapods_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AB067C318DAEA465CE7989 /* Pods-renovate-cocoapods-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-renovate-cocoapods-sample.debug.xcconfig"; path = "Target Support Files/Pods-renovate-cocoapods-sample/Pods-renovate-cocoapods-sample.debug.xcconfig"; sourceTree = "<group>"; };
+		B03D3932BF27A4C44DF29649 /* Pods-renovate-cocoapods-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-renovate-cocoapods-sample.release.xcconfig"; path = "Target Support Files/Pods-renovate-cocoapods-sample/Pods-renovate-cocoapods-sample.release.xcconfig"; sourceTree = "<group>"; };
 		C65C61F52920987600785E7F /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 		C6DE4D7A2920952200FCAA20 /* renovate-cocoapods-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "renovate-cocoapods-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DE4D7D2920952200FCAA20 /* renovate_cocoapods_sampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = renovate_cocoapods_sampleApp.swift; sourceTree = "<group>"; };
@@ -28,17 +32,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BACFA1578E561F89CDDCF14 /* Pods_renovate_cocoapods_sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36B60EC6F3034CDF49612F04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70AB067C318DAEA465CE7989 /* Pods-renovate-cocoapods-sample.debug.xcconfig */,
+				B03D3932BF27A4C44DF29649 /* Pods-renovate-cocoapods-sample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3E344722172DF58E47D0D569 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08AA2AD02F72D7CF305DA7E9 /* Pods_renovate_cocoapods_sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C6DE4D712920952200FCAA20 = {
 			isa = PBXGroup;
 			children = (
 				C6DE4D7C2920952200FCAA20 /* renovate-cocoapods-sample */,
 				C6DE4D7B2920952200FCAA20 /* Products */,
+				36B60EC6F3034CDF49612F04 /* Pods */,
+				3E344722172DF58E47D0D569 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6DE4D882920953100FCAA20 /* Build configuration list for PBXNativeTarget "renovate-cocoapods-sample" */;
 			buildPhases = (
+				C1D365CC2330A50FD519A015 /* [CP] Check Pods Manifest.lock */,
 				C6DE4D762920952200FCAA20 /* Sources */,
 				C6DE4D772920952200FCAA20 /* Frameworks */,
 				C6DE4D782920952200FCAA20 /* Resources */,
+				F6B51E4CD4BDF6B08FA91F7B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,6 +161,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C1D365CC2330A50FD519A015 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-renovate-cocoapods-sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B51E4CD4BDF6B08FA91F7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-renovate-cocoapods-sample/Pods-renovate-cocoapods-sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-renovate-cocoapods-sample/Pods-renovate-cocoapods-sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-renovate-cocoapods-sample/Pods-renovate-cocoapods-sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C6DE4D762920952200FCAA20 /* Sources */ = {
@@ -265,6 +334,7 @@
 		};
 		C6DE4D892920953100FCAA20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70AB067C318DAEA465CE7989 /* Pods-renovate-cocoapods-sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,6 +364,7 @@
 		};
 		C6DE4D8A2920953100FCAA20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B03D3932BF27A4C44DF29649 /* Pods-renovate-cocoapods-sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
