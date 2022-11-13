@@ -8,4 +8,5 @@ target 'renovate-cocoapods-sample' do
   # Pods for renovate-cocoapods-sample
 
   pod 'SDWebImage', '~> 5.0'
+  pod 'SwiftLint', '0.42.0'
 end
